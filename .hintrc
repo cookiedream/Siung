@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "position: sticky",
+          "text-justify"
+        ]
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "no-inline-styles": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 107",
+    "not chrome <= 107",
+    "not ios_saf <= 16.1",
+    "not opera <= 91",
+    "not safari <= 16",
+    "not samsung <= 18"
+  ]
+}

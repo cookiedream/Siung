@@ -1,0 +1,33 @@
+/*針對整體做動畫*/
+* {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+/*
+    但是全體做動畫有個缺點，當在LOGO裡面做圖的時候，文字隱藏的時候，
+    網站剛讀取會有動畫效果!超像bug的所以如果有在LOGO設圖片，要針對LOGO的地方動畫速度歸 0
+  */
+/*針對 .navbar 作一些我想要的修正*/
+.navbar-scroll.navbar {
+    padding: 10px 0;
+    border-radius: 0px;
+    margin: 0;
+}
+
+/*也是針對想要的畫面做修正*/
+.navbar-scroll.navbar-fixed-top {
+    padding: 0px 0;
+}
+
+h5 {
+    padding-top: 1rem;
+    margin-bottom: 0 !important;
+}
+
+.nav-link.a,
+.nav-link.active {
+    color: white !important;
+}

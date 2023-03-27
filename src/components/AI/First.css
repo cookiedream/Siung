@@ -1,0 +1,8 @@
+.iot {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    height: 0 !important;
+}

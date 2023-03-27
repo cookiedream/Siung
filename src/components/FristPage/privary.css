@@ -1,0 +1,24 @@
+p {
+    width: 100%;
+}
+
+.q {
+    display: flex;
+    justify-content: center;
+}
+
+.qw {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+.we {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+h2 {
+    color: #2ca6e0;
+}
