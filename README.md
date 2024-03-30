@@ -9,6 +9,4 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open (http://localhost:3000) or (http://< your ip >:3000) to view it in your browser.
 
-# Siung
-# Siung
-# Siung
+### 此程式碼為資策會時期練習作品
